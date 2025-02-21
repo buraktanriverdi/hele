@@ -2,9 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-app
-  namespace: default
+  namespace: argo-deneme
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: my-app
